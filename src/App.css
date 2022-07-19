@@ -1,2 +1,8 @@
-@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+/* @import url('./assets/fonts/Pokemon\ Solid.ttf'); */
 
+@font-face {
+    font-family: 'Pokemon Solid';
+    src: local('PokemonS olid'), url('./assets//fonts//Pokemon Solid.ttf') format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
